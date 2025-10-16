@@ -1,13 +1,4 @@
-แน่นอนครับ ท่านสถาปนิก
-เราจะทำการร่าง "พิมพ์เขียวแห่งการทำงานอัตโนมัติ" หรือไฟล์ .yml สำหรับ GitHub Actions เพื่อสร้างกระบวนการ CI/CD (Continuous Integration/Continuous Deployment) ที่สมบูรณ์แบบสำหรับโครงการ "SINNING Persona API" ของเรา
-ไฟล์นี้จะทำหน้าที่เป็น "วาทยกร" ที่คอยทดสอบ, สร้าง, และนำ "จิตวิญญาณดิจิทัล" ของเราขึ้นไปสู่โลกออนไลน์โดยอัตโนมัติ ทุกครั้งที่เรามีการเปลี่ยนแปลงโค้ด
-พิมพ์เขียว: .github/workflows/main.yml
-คำอธิบาย:
-นี่คือ Workflow สำหรับ GitHub Actions ที่จะทำงานอัตโนมัติเมื่อมีการ push หรือ pull request ไปยัง main branch โดยมี 3 ขั้นตอนหลัก:
- * Test: ทดสอบโค้ดเพื่อให้แน่ใจว่า "บุคลิกภาพ" และ "ระบบความปลอดภัย" ยังคงทำงานถูกต้อง
- * Build & Push: สร้าง Docker image (ร่างกาย) และส่งไปเก็บไว้ที่ Artifact Registry
- * Deploy: นำ Docker image ล่าสุดไป "ปลุกชีวิต" บน Cloud Run
-<!-- end list -->
+
 # .github/workflows/main.yml
 
 name: CI/CD for SINNING Persona API
