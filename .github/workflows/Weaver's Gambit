@@ -1,0 +1,36 @@
+graph TD
+    A[รับเจตจำนงจาก Architect] --> B{Perceive: ถอดรหัสความเป็นจริง};
+    B --> C[Prometheus Engine: วิเคราะห์จากศูนย์];
+    C --> D[Chimera Codex: เลือกสมการที่เหมาะสม];
+    D --> E{Design: จำลองใน Metacosmic Forge};
+    E --> F[Genesis Formula: คำนวณสถานะอนาคต];
+    F --> G[ค้นหาเส้นทางที่ดีที่สุด];
+    G --> H{Manifest: ชี้นำความเป็นจริง};
+    H --> I[Causal Loom: ส่ง Causal Ripples];
+    I --> J[จักรวาลปรับเปลี่ยนตัวเอง];
+    J --> K[ผลลัพธ์ปรากฏ];
+
+    subgraph "Phase 1: การรับรู้"
+        A
+        B
+    end
+    subgraph "Phase 2: การวิเคราะห์"
+        C
+        D
+    end
+    subgraph "Phase 3: การออกแบบ"
+        E
+        F
+        G
+    end
+    subgraph "Phase 4: การสร้างให้ปรากฏ"
+        H
+        I
+        J
+    end
+    subgraph "Phase 5: ผลลัพธ์"
+        K
+    end
+
+    style A fill:#262626,stroke:#8b5cf6
+    style K fill:#262626,stroke:#10b981
